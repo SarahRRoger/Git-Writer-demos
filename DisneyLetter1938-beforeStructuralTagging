@@ -10,39 +10,419 @@
                 <p>Encoded by the summer 2020 LINCS/CWRC/Orlando URAs cohort</p>
             </sourceDesc>
         </fileDesc><xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-</rdf:RDF></xenoData></teiHeader>
+
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging?place_annotation_20200507153715141",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-05-07T19:37:15.141Z",
+	"dcterms:issued": "2020-05-07T20:16:46.237Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/SarahRRoger",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "SarahRRoger"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging?place_annotation_20200507153715141#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging?place_annotation_20200507153715141#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/opener/address/addrLine/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://geonames.org/4130432",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging?place_annotation_20200507153743428",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-05-07T19:37:43.428Z",
+	"dcterms:issued": "2020-05-07T20:16:46.247Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/SarahRRoger",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "SarahRRoger"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging?place_annotation_20200507153743428#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging?place_annotation_20200507153743428#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/opener/address/addrLine[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://geonames.org/4099753",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging?date_annotation_20200507154401395",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-05-07T19:44:01.395Z",
+	"dcterms:issued": "2020-05-07T20:16:46.247Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/SarahRRoger",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "SarahRRoger"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging?date_annotation_20200507154401395#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging?date_annotation_20200507154401395#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/opener/dateline/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1938-06-07"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging?place_annotation_20200507154453624",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-05-07T19:44:53.624Z",
+	"dcterms:issued": "2020-05-07T20:16:46.248Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/SarahRRoger",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "SarahRRoger"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging?place_annotation_20200507154453624#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging?place_annotation_20200507154453624#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/back/div/p/address/addrLine[3]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://geonames.org/5332921",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging?place_annotation_20200507160056384",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-05-07T20:00:56.384Z",
+	"dcterms:issued": "2020-05-07T20:16:46.248Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/SarahRRoger",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "SarahRRoger"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging?place_annotation_20200507160056384#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/SarahRRoger/Git-Writer-demos/master/DisneyLetter1938-beforeStructuralTagging?place_annotation_20200507160056384#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://geonames.org/5357527",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}
+]]></rdf:Description></rdf:RDF></xenoData></teiHeader>
     <text>
-        <body>
+        <front/><body>
             <pb facs="https://live.staticflickr.com/1129/632255233_213684641e_o.jpg" n="1"/><div type="letter">
                 
 
-                <head>1938 Disney Rejection Letter</head><opener><dateline><date when="1938-06-07">June 7, 1938 </date></dateline><persName>Miss Mary V. Ford</persName><address><addrLine>Searcy,</addrLine><addrLine>Arkansas</addrLine></address><salute>Dear Miss Ford:</salute></opener>
+                <head>1938 Disney Rejection Letter</head><opener><dateline><date when="1938-06-07">June 7, 1938 </date></dateline><persName>Miss Mary V. Ford</persName><address><addrLine><placeName ref="http://geonames.org/4130432" key="Searcy County Arkansas United States" cert="high">Searcy<precision match="@ref" precision="high"/></placeName>,</addrLine><addrLine><placeName ref="http://geonames.org/4099753" key="Arkansas Arkansas United States" cert="high">Arkansas<precision match="@ref" precision="high"/></placeName></addrLine></address><salute>Dear Miss Ford:</salute></opener>
                 
                 
 
                 
 
-                <ab>Your letter of recent date has been received in the Inking and Painting
-                    Department for reply.</ab>
-                <ab>Women do not do any of the creative work in connection with preparing the
+                <p>Your letter of recent date has been received in the Inking and Painting
+                    Department for reply.</p>
+                <p>Women do not do any of the creative work in connection with preparing the
                     cartoons for the screen, as that work is performed entirely by young men. For
-                    this reason girls are not considered for the training school.</ab>
-                <ab>The only work open to women consists of tracing the characters on clear
+                    this reason girls are not considered for the training school.</p>
+                <p>The only work open to women consists of tracing the characters on clear
                     celluloid sheets with Indian ink and filling in the tracings on the reverse side
-                    with paint according to directions.</ab>
-                <ab>In order to apply for a position as “Inker” or “Painter” it is necessary that
+                    with paint according to directions.</p>
+                <p>In order to apply for a position as “Inker” or “Painter” it is necessary that
                     one appear at the Studio, bringing samples of pen and ink and water color work.
-                    It would not be advisable to come to Hollywood with the above specifically in
+                    It would not be advisable to come to <placeName ref="http://geonames.org/5357527" key="Hollywood California United States" cert="high">Hollywood<precision match="@ref" precision="high"/></placeName> with the above specifically in
                     view, as there are really very few openings in comparison with the number of
-                    girls who apply.</ab>
+                    girls who apply.</p>
 
 
-                <ab>Yours very truly,</ab>
-                <ab>WALT DISNEY PRODUCTIONS, LTD.</ab>
+                <closer><salute>Yours very truly,</salute><orgName>WALT DISNEY PRODUCTIONS, LTD.</orgName><lb/>By:<signed>(Signed)</signed><persName>MEC</persName></closer>
+                
 
-                <ab>By:</ab>
-                <ab>(Signed)</ab>
+                
+                
             </div>
-        </body>
+        </body><back><div><p><address><addrLine><orgName key="WALT DISNEY PRODUCTIONS, Ltd">WALT DISNEY PRODUCTIONS, Ltd</orgName>.</addrLine> <addrLine>2719 Hyperion</addrLine> <addrLine><placeName key="Hollywood">Hollywood</placeName>, <placeName key="California California United States" ref="http://geonames.org/5332921">Cal</placeName>.</addrLine></address></p></div></back>
     </text>
 </TEI>
